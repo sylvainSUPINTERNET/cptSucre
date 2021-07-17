@@ -30,6 +30,7 @@ public class Character : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space))
         {
+          animations.Play("attack");
             Debug.Log("Space key was pressed.");
         }
 
